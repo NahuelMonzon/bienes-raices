@@ -121,8 +121,13 @@ footer li{
 .grid-item{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    grid-gap: 20px;
   }
+@media(max-width: 768px) {
+    .grid-item .imagen-conteiner {
+        grid-column: 1/-1;
+    }
+}
 
 .imagen-conteiner{
     max-width: 300px;
@@ -215,3 +220,12 @@ footer li{
   }
 
   /* FIN FOOTER */
+
+  /* CAROUSEL */
+  .slide{
+    margin-top: 10px;
+  }
+
+  .slide img {
+    height: 65vh;
+    }
