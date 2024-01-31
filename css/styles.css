@@ -72,25 +72,13 @@ li{
     padding: 10px;
     width: 70%;
 }
-/* .card{
-    background-color: aqua;
-    margin-bottom: 40px;
-} */
-/* .separar{
-    display: flex;
-    background-color: beige;
-    border-color: blue;
-    flex-direction: row;
-    border: solid 1px;
-} */
 
 .bordes{
     border: solid 3px ;
     margin: 20 0;
     padding: 20;
     border-radius: 20px;
-    /* align-items: center;
-    justify-content: center; */
+    
 }
 
 footer img{
@@ -228,4 +216,11 @@ footer li{
 
   .slide img {
     height: 65vh;
+    }
+
+    /* tamaño imagen nosotros */
+
+    main img{
+        width: 50%;
+        height: 50%;
     }
