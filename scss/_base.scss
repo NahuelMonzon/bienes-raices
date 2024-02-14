@@ -129,6 +129,7 @@ p{
       .footer-row {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
       }
       .footer-links {
         width: 25%;
@@ -179,7 +180,6 @@ p{
             width: 100%;
             margin-bottom: 30px;
         }
+       }
        
-}
-
-}
+    }
