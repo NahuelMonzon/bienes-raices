@@ -11,7 +11,7 @@ $bold:600;
 //colors
 $primarycolor: rgb(46, 46, 139);
 $secondarycolor:#413f3f;
-$backgrouncolor:rgb(163, 163, 235);
+$backgrouncolor:rgb(245, 215, 84);
 $black:rgb(37, 34, 34);
 
 //sizies
@@ -26,8 +26,9 @@ $xxl: 3em;
 $backgroundimg: fondo-br;
 
 body{
-    background-image:url(../assets/pared.png);
-    opacity: 1.4;
+    background-image: linear-gradient(rgba(131, 152, 170, 0.5),rgba(132, 150, 165, 0.5)),
+    url(../assets/pared.png);
+    // opacity: 1.4;
 }
 
 todo lo general
@@ -118,7 +119,7 @@ p{
 // Footer
 
 .footer {
-    background-color: rgb(163, 163, 235);
+    background-color: $backgrouncolor;
     padding: 40px 0;
     
      container {
@@ -149,7 +150,7 @@ p{
           margin-bottom: 15px;
           transition: all .3s ease;
           &:hover {
-            color: #ffffff;
+            color: #829aa1;
             padding-left: 6px;
           }
         }
@@ -163,7 +164,7 @@ p{
         text-align: center;
         line-height: 40px;
         border-radius: 50%;
-        color: white;
+        color: rgb(69, 110, 148);
         transition: all .5s  ease;
         &:hover {
           background-color: #829aa1;
