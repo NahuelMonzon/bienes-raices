@@ -28,7 +28,6 @@ $backgroundimg: fondo-br;
 body{
     background-image: linear-gradient(rgba(131, 152, 170, 0.5),rgba(132, 150, 165, 0.5)),
     url(../assets/pared.png);
-    // opacity: 1.4;
 }
 
 todo lo general
@@ -40,7 +39,7 @@ todo lo general
 }
 main{
     margin-left: 15px;
-    
+    padding: 50px;
     background-repeat: repeat;
     height: 100%;
     img{

@@ -59,6 +59,7 @@ todo lo general * {
 
 main {
   margin-left: 15px;
+  padding: 50px;
   background-repeat: repeat;
   height: 100%;
 }
